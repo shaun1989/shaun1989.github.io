@@ -1,0 +1,20 @@
+body {
+	background-color:black;
+}
+#head {
+	color: #00bb00;
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+}
+#title {
+	color: #00bb00;
+	text-decoration:underline;
+	font-size:50px;
+	text-shadow:-1px -2px 0.5em;
+}
+#nav {
+	border:5px solid #00bb00;
+	margin-top:1%;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
