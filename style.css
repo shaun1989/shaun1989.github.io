@@ -1,11 +1,14 @@
 body {
 	background-color:black;
+	max-height:1500px;
 }
 #head {
 	color: #00bb00;
 	border:5px solid #00bb00;
 	border-radius:10px;
 	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	max-width:100%;
+	min-width:1300px;
 }
 #title {
 	color: #00bb00;
@@ -25,6 +28,10 @@ p#p1 {
 	border-radius:10px;
 	height:50px;
 	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	max-width:100%;
+	min-width:1300px;
+	max-height:50px;
+	min-height:50px;
 }
 a#A1 {
 	border-right: 3px solid #00bb00;
@@ -42,4 +49,57 @@ a.A2 {
 	padding-left:1%;
 	padding-right:1%;
 	margin-left:3px;
+}
+label#search {
+	color:#00bb00;
+	float:right;
+	border-left:3px solid #00bb00;
+	font-size:35px;
+	margin-right:1%;
+	padding-left:1%;
+}
+input#in1 {
+	float:right;
+    height:20px;
+    margin-top:7px;
+    color:#00bb00;
+	background-color:black;
+	border:3px solid #00bb00;
+	border-radius:10px;
+}
+button#b1 {
+	float:right;
+	margin-right:1%;
+	margin-left:1%;
+	margin-top:7px;
+	height:27px;
+	color:#00bb00;
+	background-color:black;
+	border:3px solid #00bb00;
+	border-radius:10px;
+	cursor:pointer;
+}
+div#searches {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	width:1700px;
+	height:800px;
+	margin-top:1%;
+	color:#00bb00;
+	margin-left:5%;
+	min-width:1700px;
+	max-height:800px;
+}
+div#search {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	float:left;
+	margin-top:1%;
+	margin-left:1%;
+	width:500px;
+	height:600px;
+	max-width:500px;
+	max-height:600px;
 }
