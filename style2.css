@@ -1,0 +1,72 @@
+body {
+	background-color:black;
+	max-height:1500px;
+}
+#head {
+	color: #00bb00;
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	max-width:100%;
+	min-width:1400px;
+}
+#title {
+	color: #00bb00;
+	text-decoration:underline;
+	font-size:60px;
+	text-shadow:-1px -2px 0.5em;
+}
+p#p1 {
+	font-size:20px;
+	text-decoration:underline;
+}
+#nav {
+	border:5px solid #00bb00;
+	padding-top:1%;
+	padding-left:1%;
+	margin-top:1%;
+	border-radius:10px;
+	height:50px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	max-width:100%;
+	min-width:1400px;
+	max-height:50px;
+	min-height:50px;
+}
+a#A1 {
+	border-right: 3px solid #00bb00;
+	padding-right:1%;
+	color: #00bb00;
+	font-size:35px;
+	text-decoration:none;
+}
+a.A2 {
+	border-left:3px solid #00bb00;
+	border-right:3px solid #00bb00;
+	font-size:35px;
+	color:#00bb00;
+	text-decoration:none;
+	padding-left:1%;
+	padding-right:1%;
+	margin-left:3px;
+}
+a#A3 {
+	border-left: 3px solid #00bb00;
+	padding-right:1%;
+	color: #00bb00;
+	font-size:35px;
+	text-decoration:none;
+	float:right;
+	padding-left:1%;
+}
+div#searches {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	width:90%;
+	height:1070px;
+	margin-top:1%;
+	color:#00bb00;
+	margin-left:5%;
+	min-width:1300px;
+	min-height:1070px;
