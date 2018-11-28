@@ -98,9 +98,9 @@ div#search {
 	float:left;
 	margin-top:1%;
 	margin-left:1%;
-	width:30%;
+	width:500px;
 	height:1020px;
-	min-width:30%;
+	min-width:500px;
 	min-height:1020px;
 	color:#00bb00;
 }
