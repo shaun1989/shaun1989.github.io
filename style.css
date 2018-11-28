@@ -84,12 +84,12 @@ div#searches {
 	border-radius:10px;
 	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
 	width:90%;
-	height:800px;
+	height:1070px;
 	margin-top:1%;
 	color:#00bb00;
 	margin-left:5%;
 	min-width:1300px;
-	max-height:800px;
+	min-height:1070px;
 }
 div#search {
 	border:5px solid #00bb00;
@@ -99,7 +99,72 @@ div#search {
 	margin-top:1%;
 	margin-left:1%;
 	width:30%;
-	height:500px;
-	max-width:30%;
-	max-height:500px;
-
+	height:1020px;
+	min-width:30%;
+	min-height:1020px;
+	color:#00bb00;
+}
+fieldset#f1 {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	height:190px;
+	width:400px;
+	margin-left:6%;
+	min-width:400px;
+	min-height:200px;
+}
+legend#legend1 {
+	font-size:20px;
+	border:3px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	color:#00bb00;
+}
+p#p2 {
+	margin-right:2%;
+}
+input#option {
+	color:#00bb00;
+	background-color:black;
+	border:3px solid #00bb00;
+	border-radius:10px;
+	margin-left:2%;
+}
+input#specific {
+	color:#00bb00;
+	background-color:black;
+	border:3px solid #00bb00;
+	border-radius:10px;
+	margin-left:2%;
+}
+button#b2 {
+	color:#00bb00;
+	background-color:black;
+	border:3px solid #00bb00;
+	border-radius:10px;
+	cursor:pointer;
+	margin-left:2%;
+}
+fieldset#f2 {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	height:200px;
+	width:400px;
+	margin-left:6%;
+	min-width:400px;
+	min-height:250px;
+}
+legend#legend2 {
+	font-size:20px;
+	border:3px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	color:#00bb00;
+	margin-right:6%;
+}
+label#l2 {
+	margin-left:2%;
+}
+label#l3 {
+	margin-left:2%;
+}

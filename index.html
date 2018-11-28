@@ -18,7 +18,7 @@
 		<a class = "A2" href = "guides.html">ruby install guide</a>
 		<a class = "A2" href = "cmd.html">cmd basics</a>
 		<a class = "A2" href = "git.html">git basics</a>
-		<button onclick = "search()" id = "b1">search</button>
+		<button onclick = "searches()" id = "b1">search</button>
 		<input id = "in1" type = "text">
 		<label id = "search">search[main]</label>
 	</nav>
@@ -27,6 +27,34 @@
 	<div id = "searches">
 		<section>
 			<div id = "search">
+				<h2 id = "h2" align = "center">search box</h2>
+				<p align = "center">in this section you can quick search commands for the command terminal or for each program and also install commands use the search box on the nav bar to search for the commands to input in the search box below as the id for a specific search and and use the listed items you can search for. type either.</p>
+				<ul>
+					<li>install</li>
+					<li>cmd</li>
+				</ul>
+				<br />
+					<p align = "center">this wil display the available search options for below</p>
+					<br />
+				<fieldset id = "f1"><legend id = "legend1">search options</legend>
+
+				<p id = "results"></p>
+			</fieldset>
+			<p id = "p2" align = "center">use this box to search for lists of commands for each program or command line and also install commands you can do specific searches but the typing must be specific as the search engine is in its early days</p>
+			<label id = "l2">main:</label>
+			<br />
+			<input id = "option" type = "text">
+			<br />
+			<label id = "l3">option</label>
+			<br />
+			<input type = "text" id = "specific">
+			<br />
+			<button id = "b2" onclick = "search()">search</button>
+			<br />
+			<br />
+			<fieldset id = "f2"><legend id = "legend2">result</legend>
+				<p id = "results2"></p>
+			</fieldset>
 			</div>
 		</section>
 	</div>
