@@ -1,5 +1,5 @@
 window.onload = function welcome() {
-	alert("hello and welcome to my page at the moment it is a work in progress so bare/n with me this version is currently only for laptops mobile to come soon");
+	alert("hello and welcome to my page at the moment it is a work in progress so bare with me ");
 }
 const learn = [{
 	"id": "standard cmd", 
