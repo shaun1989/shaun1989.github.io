@@ -88,7 +88,7 @@ div#searches {
 	margin-top:1%;
 	color:#00bb00;
 	margin-left:5%;
-	min-width:1300px;
+	min-width:1400px;
 	min-height:1070px;
 }
 div#search {
@@ -150,7 +150,7 @@ fieldset#f2 {
 	width:400px;
 	margin-left:6%;
 	min-width:400px;
-	min-height:250px;
+	min-height:200px;
 	overflow:auto;
 }
 legend#legend2 {
@@ -164,3 +164,65 @@ label#l2 {
 label#l3 {
 	margin-left:2%;
 }
+div#searchinfo {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	float:left;
+	width:900px;
+	height:600px;
+	min-width:900px;
+	min-height:600px;
+	margin-top:1%;
+	margin-left:1%;
+}
+div#info {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	float:left;
+	width:900px;
+	height:400px;
+	min-width:900px;
+	min-height:400px;
+	margin-top:1%;
+	margin-left:1%;
+}
+div#animation {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	float:right;
+	width:200px;
+	height:1020px;
+	min-width:200px;
+	min-height:1020px;
+	margin-top:1%;
+	margin-right:1%;
+}
+div#animate1 {
+	border:3px solid yellow;
+	border-radius:10px;
+	float:left;
+	margin-left:1%;
+	margin-top:3%;
+	width:80px;
+	height:990px;
+	min-width:80px;
+	min-height:990px;
+	background-color:#00bb00;
+}
+div#animate2 {
+	border:3px solid yellow;
+	border-radius:10px;
+	float:right;
+	margin-right:1%;
+	margin-top:3%;
+	width:80px;
+	height:990px;
+	min-width:80px;
+	min-height:990px;
+	background-color:#00bb00;
+}
+footer {
+	color:#00bb00;
