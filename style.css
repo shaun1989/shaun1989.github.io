@@ -8,7 +8,7 @@ body {
 	border-radius:10px;
 	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
 	max-width:100%;
-	min-width:1400px;
+	min-width:1800px;
 }
 #title {
 	color: #00bb00;
@@ -29,7 +29,7 @@ p#p1 {
 	height:50px;
 	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
 	max-width:100%;
-	min-width:1400px;
+	min-width:1800px;
 	max-height:50px;
 	min-height:50px;
 }
@@ -88,7 +88,7 @@ div#searches {
 	margin-top:1%;
 	color:#00bb00;
 	margin-left:5%;
-	min-width:1400px;
+	min-width:1700px;
 	min-height:1070px;
 }
 div#search {
@@ -226,3 +226,4 @@ div#animate2 {
 }
 footer {
 	color:#00bb00;
+	min-width:1800px;
