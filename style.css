@@ -227,3 +227,44 @@ div#animate2 {
 footer {
 	color:#00bb00;
 	min-width:1800px;
+}
+p#p5 {
+	text-decoration:underline;
+}
+label#l4 {
+	font-size:20px;
+	text-decoration:underline;
+}
+label#l5 {
+	float:left;
+	font-size:20px;
+	margin-bottom:2%;
+	text-decoration:underline;
+}
+ul#ul2 {
+	float:left;
+	margin-left:2%;
+}
+ul#ul1 {
+	float:left;
+	margin-left:12%;
+}
+label#l6 {
+	float:left;
+	font-size:20px;
+	margin-bottom:2%;
+	text-decoration:underline;
+}
+ul#ul3 {
+	float:left;
+	margin-left:4%;
+}
+ul#ul4 {
+	float:left;
+	margin-left:2%;
+}
+label#l7 {
+	float:left;
+	font-size:20px;
+	margin-bottom:2%;
+	text-decoration:underline;

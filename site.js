@@ -2,12 +2,12 @@ window.onload = function welcome() {
 	alert("hello and welcome to my page at the moment it is a work in progress so bare with me ");
 }
 const learn = [{
-	"id": "standard cmd", 
+	"id": "cmd basics", 
 	    "----": "-----------<br />",
 		"move to folder": "cd Documents/foldername/foldername <br />",
 		"create folder": "mkdir filename <br /> ",
-		"rename": "mv filename , newfilename <br />",
-		"delete": "rmdir filename <br />",
+		"rename folder": "mv filename , newfilename <br />",
+		"delete folder": "rmdir filename <br />",
 		"view file": "cat ~/filename<br /> ",
 		"move a folder": "move filename destinationFolder"
 },
@@ -45,7 +45,29 @@ const learn = [{
    "----": "-----------<br />",
    "required": "sudo apt-get update    first followed by     sudo apt update <br />",
     "install ": "sudo apt-get dist-upgrade <br />"
-
+},
+{
+	"id": "git install",
+	"----": "------------- <br />",
+	"required": "most recent update compatible os <br />",
+	"install": "sudo apt-get install git <br />"
+},
+{
+	"id": "ruby install",
+	"-----": "------------ <br />",
+	"required": "most recent update compatible os",
+	"install": "this install is for without rvm use and wil only install latest version: sudo apt-get install ruby <br />"
+},
+{
+	"id": "virtualbox install",
+	"------": "-------------",
+	"required": "be sure to pick the right download for your system the link below will direct you  to the download page <br />",
+	"install": "https://www.virtualbox.org/wiki/Downloads <br />"
+},
+{
+	"id": "os install",
+	"required": "virtualbox, disk image of desired operating system, and enough rsm to be able to split <br />",
+	"install": "for install guide for the os install has its own specified page with full directions <br />"
 }];
 function search (id  ,prop) {
     id = document.getElementById("option").value;
