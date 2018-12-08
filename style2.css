@@ -59,14 +59,73 @@ a#A3 {
 	float:right;
 	padding-left:1%;
 }
-div#searches {
+div#install {
 	border:5px solid #00bb00;
 	border-radius:10px;
 	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
-	width:90%;
-	height:1070px;
+	width:1000px;
+	height:900px;
 	margin-top:1%;
 	color:#00bb00;
-	margin-left:5%;
-	min-width:1300px;
-	min-height:1070px;
+	margin-left:3%;
+	margin-right:3%;
+	min-width:1000px;
+	min-height:900px;
+	float:left;
+}
+div#info {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	float:left;
+	margin-top:1%;
+	margin-left:3%;
+	width:400px;
+	height:700px;
+	min-width:400px;
+	min-height:700px;
+	color:#00bb00;
+	overflow:auto;
+}
+div#animate {
+	border:5px solid #00bb00;
+	border-radius:10px;
+	box-shadow:-1px -1px 0.5em yellow, 2px 2px 0.5em;
+	float:left;
+	margin-top:1%;
+	margin-right:3%;
+	width:200px;
+	height:1020px;
+	min-width:200px;
+	min-height:1020px;
+	color:#00bb00;
+	overflow:auto;
+}
+div#animate1 {
+	border:3px solid yellow;
+	border-radius:10px;
+	float:left;
+	margin-left:1%;
+	margin-top:3%;
+	width:80px;
+	height:990px;
+	min-width:80px;
+	min-height:990px;
+	background-color:#00bb00;
+}
+div#animate2 {
+	border:3px solid yellow;
+	border-radius:10px;
+	float:right;
+	margin-right:1%;
+	margin-top:3%;
+	width:80px;
+	height:990px;
+	min-width:80px;
+	min-height:990px;
+	background-color:#00bb00;
+}
+p#p3 {
+	color:#00bb00;
+	clear:top;
+}

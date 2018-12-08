@@ -33,7 +33,7 @@ p#p1 {
 	max-height:50px;
 	min-height:50px;
 }
-a#A1 {
+a.A1 {
 	border-right: 3px solid #00bb00;
 	padding-right:1%;
 	color: #00bb00;
@@ -103,6 +103,7 @@ div#search {
 	min-width:500px;
 	min-height:1020px;
 	color:#00bb00;
+	overflow:auto;
 }
 fieldset#f1 {
 	border:5px solid #00bb00;
@@ -150,8 +151,9 @@ fieldset#f2 {
 	width:400px;
 	margin-left:6%;
 	min-width:400px;
-	min-height:200px;
+	min-height:100px;
 	overflow:auto;
+	float:left;
 }
 legend#legend2 {
 	font-size:20px;
@@ -175,6 +177,7 @@ div#searchinfo {
 	min-height:600px;
 	margin-top:1%;
 	margin-left:1%;
+	overflow:auto;
 }
 div#info {
 	border:5px solid #00bb00;
@@ -276,4 +279,3 @@ p#p6 {
 p#p7 {
 	margin-left:2%;
 	margin-right:1%;
-}
