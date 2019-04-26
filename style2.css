@@ -129,3 +129,24 @@ p#p3 {
 	color:#00bb00;
 	clear:top;
 }
+h2#about {
+	color: #00bb00;
+	max-width:100%;
+	min-width:1400px;
+	font-size:100px;
+}
+p#info {
+	color:#00bb00;
+	font-size:20px;
+	max-width:100%;
+	min-width:1400px;
+}
+ul#projects {
+	color:#00bb00;
+	font-size:20px;
+}
+a.li {
+	color:#00bb00;
+	font-size:20px;
+}
+

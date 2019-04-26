@@ -1,0 +1,32 @@
+body {
+    background-color:black;
+    color:#00bb00;
+}
+h1 {
+    color:#00bb00;
+    border:3px solid #00bb00;
+    border-radius:10px;
+    margin-right:35%;
+    margin-left:35%;
+    font-size:40px;
+    text-decoration:underline;
+}
+#game {
+    border:3px solid #00bb00;
+    border-radius:10px;
+    height:300px;
+    width:400px;
+    margin-left:40%;
+}
+button {
+    background-color:black;
+    color:#00bb00;
+    border:3px solid #00bb00;
+    border-radius:10px;
+    margin-left:49%;
+    margin-top:2%;
+    cursor:pointer;
+}
+#player {
+    margin-left:1%;
+}
